@@ -30,4 +30,4 @@ The teacher knows that only those who studied would be telling the truth and tho
     5- Colocar la leche
        5.1 Repetir hasta que el cereal llegue al tope
        
-![ Diagrama de flujo ](https://github.com/CharlesEDG/README/blob/main/Diagrama.PNG?raw=true)
+![ Diagrama de flujo ](https://github.com/CharlesEDG/README-Fundamentals/blob/main/Diagrama.PNG?raw=true)
