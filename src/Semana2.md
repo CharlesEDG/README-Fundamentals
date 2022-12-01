@@ -31,3 +31,29 @@ The teacher knows that only those who studied would be telling the truth and tho
        5.1 Repetir hasta que el cereal llegue al tope
        
 ![ Diagrama de flujo ](https://github.com/CharlesEDG/README-Fundamentals/blob/main/Diagrama.PNG?raw=true)
+
+
+
+## Martes
+
+### Exercise-2: This will be a guided challenge, the idea is for you to use PSeInt. For this challenge, we will print your name on the screen, a simple task that will help us to review the way PSeInt works.
+
+```python
+Algoritmo MyName
+	Imprimir "Charles Diaz"
+FinAlgoritmo
+```
+
+
+
+
+### Exercise-3: This challenge is similar to the previous guided challenge, but now you will try alone. For this challenge, you will need to create an algorithm in Pseudocode using PSeInt that prints your name and your age in separate lines, remeber that your name should be a string and your age a number
+
+```python
+Algoritmo MyNameAndAge
+	Imprimir "Charles Diaz"
+	Imprimir 30
+FinAlgoritmo
+```
+
+
