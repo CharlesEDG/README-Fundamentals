@@ -1,6 +1,6 @@
 ## Lunes
 
-### Exercise-1: Logic Problem: The teacher asks his 5 students if they studied mathematics yesterday.
+### Exercise-1 Logic Problem: The teacher asks his 5 students if they studied mathematics yesterday.
 
 Alice: "Nobody studied math yesterday".  
 Bob: "1 person studied math yesterday".  
@@ -15,7 +15,7 @@ The teacher knows that only those who studied would be telling the truth and tho
     
     
     
-### Exercise-2: Cereal vrs Milk: Create an algorithm to prepare a bowl of cereal with milk. Represent the result in pseudocode and in a flowchart.
+### Exercise-2 Cereal vrs Milk: Create an algorithm to prepare a bowl of cereal with milk. Represent the result in pseudocode and in a flowchart.
 
     Datos
     * Un plato
@@ -36,7 +36,7 @@ The teacher knows that only those who studied would be telling the truth and tho
 
 ## Martes
 
-### Exercise-2: Print my name: This will be a guided challenge, the idea is for you to use PSeInt. For this challenge, we will print your name on the screen, a simple task that will help us to review the way PSeInt works.
+### Exercise-2 Print my name: This will be a guided challenge, the idea is for you to use PSeInt. For this challenge, we will print your name on the screen, a simple task that will help us to review the way PSeInt works.
 
 ```python
 Algoritmo MyName
@@ -47,7 +47,7 @@ FinAlgoritmo
 
 
 
-### Exercise-3: Print my name & age: This challenge is similar to the previous guided challenge, but now you will try alone. For this challenge, you will need to create an algorithm in Pseudocode using PSeInt that prints your name and your age in separate lines, remeber that your name should be a string and your age a number
+### Exercise-3 Print my name & age: This challenge is similar to the previous guided challenge, but now you will try alone. For this challenge, you will need to create an algorithm in Pseudocode using PSeInt that prints your name and your age in separate lines, remeber that your name should be a string and your age a number
 
 ```python
 Algoritmo MyNameAndAge
@@ -60,7 +60,7 @@ FinAlgoritmo
 
 ## Miercoles
 
-## Exercise-2: Mod: The challenge for you now is to create a PSeInt program that will receive a number from the user and add the mod operator using the even/odd case ( X % 2 ) where X is the user input.
+## Exercise-2 Mod: The challenge for you now is to create a PSeInt program that will receive a number from the user and add the mod operator using the even/odd case ( X % 2 ) where X is the user input.
 
 ```python
 Algoritmo evenOdd
@@ -71,7 +71,7 @@ FinAlgoritmo
 
 
 
-## Exercise-3: Register form: You are given the task to create a registration form for new users, this form should ask the user for the following information:
+## Exercise-3 Register form: You are given the task to create a registration form for new users, this form should ask the user for the following information:
 
 First name
 Last name
