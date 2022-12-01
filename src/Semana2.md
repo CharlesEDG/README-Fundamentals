@@ -70,3 +70,33 @@ FinAlgoritmo
 ```
 
 
+
+## Exercise-3: Register form: You are given the task to create a registration form for new users, this form should ask the user for the following information:
+
+First name
+Last name
+Age
+Email
+Address
+At the end of the program, you should print all the information added from the user in a friendly way.
+
+```python
+Algoritmo Formulario
+	Escribir "Ingrese su nombre"
+	Leer nombre
+	Escribir "Ingrese su apellido"
+	Leer apellido
+	Escribir "Ingrese su edad"
+	Leer edad
+	Escribir "Ingrese su correo eletronico"
+	Leer correo 
+	Escribir "Ingrese su dirección"
+	Leer Dirección
+	Imprimir "Nombre completo:" +" "+ nombre + " "+ apellido 
+	Imprimir "Edad: " + edad
+	Imprimir "Correo electrónico: " + correo
+	Imprimir "Dirección: " + dirección
+FinAlgoritmo
+```
+
+
