@@ -151,9 +151,9 @@ Algoritmo ParImpar
 	Escribir "Ingrese un numero"
 	Leer num
 	si num mod 2=0 Entonces
-		Escribir num, " Es un numero par"
+		Imprimir num, " Es un numero par"
 	sino 
-		Escribir num, " Es un numero impar"
+		Imprimir num, " Es un numero impar"
 	FinSi
 FinAlgoritmo
 ```
