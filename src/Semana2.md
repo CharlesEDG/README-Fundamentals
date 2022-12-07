@@ -1,4 +1,4 @@
-## Lunes
+## Lunes:
 
 ### Exercise-1 Logic Problem: The teacher asks his 5 students if they studied mathematics yesterday.
 
@@ -34,7 +34,7 @@ The teacher knows that only those who studied would be telling the truth and tho
 
 
 
-## Martes
+## Martes:
 
 ### Exercise-2 Print my name: This will be a guided challenge, the idea is for you to use PSeInt. For this challenge, we will print your name on the screen, a simple task that will help us to review the way PSeInt works.
 
@@ -58,7 +58,7 @@ FinAlgoritmo
 
 
 
-## Miercoles
+## Miercoles:
 
 ## Exercise-2 Mod: The challenge for you now is to create a PSeInt program that will receive a number from the user and add the mod operator using the even/odd case ( X % 2 ) where X is the user input.
 
@@ -101,7 +101,7 @@ FinAlgoritmo
 
 
 
-## Jueves
+## Jueves:
 
 ## Exercise-1 Truth tables: You are going to learn about three main logical operations used in programming, these operations are called AND, OR, and NOT. Each of the operations uses booleans as operands, and when applying the operations a result is generated, which is also a boolean, this is easier to check using the Truth Tables for each of the operations, now your task is for you to learn, and add the Truth Tables for each of the operations add them to your README and check if the following operations are correct by answering ✅ or ❌ at the end of each operation.
 
