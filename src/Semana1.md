@@ -1,4 +1,4 @@
-## Miercoles
+## Miercoles:
 
 ### Exercise-1 Pizza: Design an algorithm to prepare a pizza from scratch. Define the ingredients, what will be the flavor and the preparation.
 # Algoritmo preparación de una pizza de pepperoni
@@ -71,7 +71,7 @@
 
 
 
-## Jueves
+## Jueves:
 
 ### Exercise-1 Numbers: Design an algorithm to check if a number is even or odd. If it is even, write that it is even, otherwise write that it is odd. Represent the algorithm in a flowchart.
 
