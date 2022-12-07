@@ -1,4 +1,4 @@
-## Lunes
+## Lunes:
 
 ### Exercise-1 Simple calculator: For this challenge you will be performing a simple calculator, this calculator can perform the following operations:
 
@@ -79,7 +79,7 @@ FinAlgoritmo
 
 
 
-## Martes
+## Martes:
 
 ### Exercise-1 Simple calculator with Switch: For this challenge you will be performing a simple calculator using Switch (Segun), this calculator can perform the following operations:
 
