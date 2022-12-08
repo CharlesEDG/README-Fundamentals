@@ -139,3 +139,68 @@ Algoritmo CalculadoraSimple
 	Fin Segun
 FinAlgoritmo
 ```
+
+
+
+### Exercise-2 Multi Option Program: For this challenge you will create a program with multiple options using Switch (Segun), the options available are the following:
+
+Sum two numbers
+Print the day of the week given the day number
+Print the length of a given text
+This program must have a start menu where the user must select one of the previously described options. When the user selects each of the options, the program will perform the following:
+
+Sum. The user enters two numbers and the result of the sum of both is printed
+Print day of the week. The user enters a day of the week using numbers and the name of the day must be printed. For example, if the number 1 is entered, the program prints the text Lunes.
+Calculate text length. The user enters a text and the length of the text should be printed. I was able to use the Pseint Longitud function to get the length.
+When the user enters an incorrect option, a message should be printed saying that the option is not available.
+
+```python
+Algoritmo MultiOpcion
+	Escribir "Calculadora Básica"
+	Escribir "Opciones Disponibles:"
+	Escribir "1. Suma de 2 números:"
+	Escribir "2. Imprimir día de la semana:"
+	Escribir "3. Imprimir longitud del texto:"
+	Escribir "Ingrese la opción requerida:"
+	Leer op
+	Segun op Hacer
+		1:
+			Escribir "Ingrese el primer número:"
+			Leer n1
+			Escribir "Ingrese el segundo número:"
+			Leer n2
+			suma <- n1 + n2
+			Escribir "Resultado: ", suma
+		2:
+			Escribir "Ingrese el día de la semana en números:"
+			Leer día
+			Segun día Hacer
+				1:
+					Imprimir "Lunes"
+				2:
+					Imprimir "Martes"
+				3:
+					Imprimir "Miercoles"
+				4:
+					Imprimir "Jueves"
+				5:
+					Imprimir "Viernes"
+				6:
+					Imprimir "Sábado"
+				7:
+					Imprimir "Domingo"
+				De Otro Modo:
+					Imprimir "Día incorrecto"
+			Fin Segun
+		3:
+			Escribir "Calcular longitud de texto:"
+			Escribir "Ingrese un texto:"
+			Leer cadena
+			n = Longitud(cadena)
+			Escribir "Resultado ", cadena , " Tiene ", n, " carácteres"
+		De Otro Modo:
+			Escribir "Opción incorrecta"
+		
+	Fin Segun
+FinAlgoritmo
+```
