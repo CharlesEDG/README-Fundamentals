@@ -225,3 +225,41 @@ Algoritmo TablaMultiplicar
 	FinMientras
 FinAlgoritmo
 ```
+
+
+
+### Exercise-2 Simple Calculator with Do While: For this challenge we are going to use the simple calculator that we made in the challenge 02 but now adding the functionality to perform a calculation again without finishing the program. The program should ask us if we want to use another operation and if the user answers yes then we can perform a new operation. To solve this challenge remember to use Do while (Repetir Hasta Que).
+
+```python
+Algoritmo CalculadoraSimple
+	Imprimir '======= Calculadora Simple ======='
+	Repetir
+	Imprimir 'Ingrese primer numero'
+	Leer a
+	Imprimir 'Ingrese segundo numero'
+	Leer b
+	Imprimir 'Ingrese una operación: +,-,*,/'
+	Leer opc
+	Si opc == '+' | opc == '-' | opc == '*' | opc == '/' Entonces
+		Imprimir 'Procesando: ' + ConvertirATexto(a) + ' ' + opc + ' ' + ConvertirATexto(b)
+		Si opc == '+' Entonces
+			Imprimir 'Resultado: ' + ConvertirATexto(a + b)
+		SiNo
+			Si opc == '-' Entonces
+				Imprimir 'Resultado: ' + ConvertirATexto(a - b)
+			SiNo
+				Si opc == '*' Entonces
+					Imprimir 'Resultado: ' + ConvertirATexto(a * b)
+				SiNo
+					Imprimir  'Resultado: ' + ConvertirATexto(a / b)
+				FinSi
+			FinSi
+		FinSi
+	SiNo
+		Imprimir 'La operación no es valida'
+	FinSi
+	Imprimir 'Deseas continuar con otra operacion ? S / N'
+	Leer Continuar
+	Hasta Que 	Continuar == "N" | Continuar == "n"
+FinAlgoritmo
+```
