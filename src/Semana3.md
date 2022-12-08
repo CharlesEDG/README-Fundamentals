@@ -204,3 +204,24 @@ Algoritmo MultiOpcion
 	Fin Segun
 FinAlgoritmo
 ```
+
+
+
+## Miercoles:
+
+### Exercise-1 Multiplication Tables: For this challenge you will create a program to calculate the multiplication tables for a given number using While (Mientras). The user must enter a number and then the multiplication table for the number must be printed.
+
+```python
+Algoritmo TablaMultiplicar
+	Definir x, n Como Entero
+	Imprimir "== Tabla de Multiplicar =="
+	Escribir "Ingrese un número"
+	Leer n
+	x = 1
+	Mientras x <= 10 Hacer
+		Escribir n, " x ", x, " = ", n * x
+		x = x + 1
+		
+	FinMientras
+FinAlgoritmo
+```
