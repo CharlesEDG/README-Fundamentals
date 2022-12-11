@@ -5,6 +5,6 @@
 ## Contenido
 
 * Semana 1:[ Algoritmos](https://github.com/CharlesEDG/README-Fundamentals/blob/main/src/Semana1.md)  
-* Semana 2:[ Pseudocógido](https://github.com/CharlesEDG/README-Fundamentals/blob/main/src/Semana2.md)  
+* Semana 2:[ Pseudocódigo](https://github.com/CharlesEDG/README-Fundamentals/blob/main/src/Semana2.md)  
 * Semana 3:[ Pseudocódigo](https://github.com/CharlesEDG/README-Fundamentals/blob/main/src/Semana3.md)
 * Semana 4:[ Pseudocódigo](https://github.com/CharlesEDG/README-Fundamentals/blob/main/src/Semana4.md)
