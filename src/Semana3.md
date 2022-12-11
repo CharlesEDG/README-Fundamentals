@@ -309,3 +309,44 @@ Algoritmo TabMultiAsc
 	FinSi
 FinAlgoritmo
 ```
+
+
+
+### Exercise-3 Greetings: For this challenge, you need to create a program that prints a greeting based on an hour entered. The program should do the following:
+
+Print Buenos dias! if the hour is from 0 to 12
+Print Buenas tardes! if the hour is from 13 to 18
+Print Buenas noches! if the hour is from 19 to 23
+Ask the user if he wants to perform another greeting. If the answer is Si, the program must start again.
+At the end of the program, print out the number of times the program has greeted.
+
+```python
+Algoritmo Saludos
+	Definir continuar Como Cadena
+	Definir cantidadSaludos Como Entero
+	cantidadSaludos <- 0
+	continuar <- 'Si'
+	Repetir
+		Escribir "Ingrese la hora actual"
+		
+	Leer hora
+	si hora <= 12 Entonces
+		Imprimir "Buenos días!"
+	SiNo
+		si hora = 13 | hora <= 18 Entonces
+			Imprimir "Buenos tardes!"
+		SiNo
+			si hora = 19 | hora <= 23 Entonces
+				Imprimir "Buenos noches!"
+			FinSi
+			
+		FinSi
+	FinSi
+	cantidadSaludos <- cantidadSaludos + 1
+	Escribir "Desea realizar otro saludo? Si/No"
+	Leer continuar
+	Hasta Que continuar == "N" | continuar == "n"
+	Imprimir "Cantidad de Saludos realizados: " + ConvertirATexto( cantidadSaludos)
+
+FinAlgoritmo
+```
