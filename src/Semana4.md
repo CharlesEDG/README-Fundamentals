@@ -52,3 +52,37 @@ Algoritmo parOimpar
 	FinPara
 FinAlgoritmo
 ```
+
+
+
+## Martes:
+
+### Exercise-2 Full name: Make a program that takes a first name and a last name, then returns a string with both values ​​with the first letter uppercase and the rest lowercase.
+
+```python
+Algoritmo nombreYapellido
+	Definir nombre Como Caracter
+	Definir a,b,c Como Entero
+	Escribir "Ingresa tu nombre y apellido"
+	Leer nombre
+	a = Longitud(nombre)
+	b = 0 
+	Para c = 1 Hasta a Con Paso 1 Hacer
+		si c == 1 Entonces
+			Escribir Mayusculas(Subcadena(nombre,c,c)) Sin Saltar	
+		SiNo
+			si Subcadena(nombre,c,c) == " " Entonces
+				b = 1
+			SiNo
+				si b == 1 Entonces
+					Escribir " " ,Mayusculas(Subcadena(nombre,c,c)) Sin Saltar
+				b = 0
+				SiNo
+					Escribir Subcadena(nombre,c,c) Sin Saltar
+				FinSi
+			FinSi
+		FinSi
+	FinPara
+	Escribir " "
+FinAlgoritmo
+```
