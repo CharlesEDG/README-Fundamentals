@@ -107,3 +107,24 @@ Algoritmo Dados
 	Hasta Que c == 10
 FinAlgoritmo
 ```
+
+
+
+## Miercoles:
+
+### Exercise-1 Distance to zero: Make a program that asks for 5 values and also allows us to know which one is furthest from zero, once obtained it returns that number (the numbers can be negative), showing only the integer part of the number.
+
+```python
+Algoritmo alejadoDeCero
+	Escribir "Escribe un número"
+	leer maximo
+	Para contador = 1 Hasta 4 Con Paso 1 Hacer
+		Escribir "Escribe un número"
+		leer num
+		SI Abs(num) > Abs(maximo) Entonces
+			maximo = num
+		FinSi
+	FinPara
+	Imprimir Trunc(maximo)
+FinAlgoritmo
+```
