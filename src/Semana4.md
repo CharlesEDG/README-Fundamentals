@@ -128,3 +128,40 @@ Algoritmo alejadoDeCero
 	Imprimir Trunc(maximo)
 FinAlgoritmo
 ```
+
+
+
+### Exercise-2 Toss coin: From the data we receive first a name and a value, then another name and another value, using the built-in function aleatorio() we simulate the flip of a coin, We must return the name of the winner in capital letters and the value I win, to avoid cheating, if a player puts a value of zero or negative, the opponent automatically wins, in case both cheat, "game canceled" is returned.
+
+```python
+Algoritmo MonedaAleatoria
+	
+	Escribir "Ingrese el nombre del primer jugador"
+	leer jugador1
+	Escribir "Ingrese el monto a apostar"
+	leer monto1
+	Escribir "Ingrese el nombre del segundo jugador"
+	leer jugador2
+	Escribir "Ingrese el monto a apostar"
+	leer monto2
+	
+	SI monto1<=0 | monto2 <=0 Entonces
+		SI monto1<=0 & monto2 <=0 Entonces
+			Imprimir "Juego Cancelado"
+		SiNo
+			SI monto1<=0 Entonces
+				Imprimir "jugador ganador: ", Mayusculas(jugador2), " monto ganado: 0"
+			SiNo
+				Imprimir "Jugador ganador: ", Mayusculas(jugador1), " monto ganado: 0"
+			FinSi
+		FinSi
+	SiNo
+		SI Aleatorio(1,2) = 1 Entonces
+			Imprimir "jugador ganador: ", Mayusculas(jugador1), " monto ganado: ", monto2
+		SiNo
+			Imprimir "jugador ganador: ", Mayusculas(jugador2), " monto ganado: ", monto1
+		FinSi
+	FinSi
+	
+FinAlgoritmo
+```
