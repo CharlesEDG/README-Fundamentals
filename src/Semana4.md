@@ -165,3 +165,24 @@ Algoritmo MonedaAleatoria
 	
 FinAlgoritmo
 ```
+
+
+
+## Jueves:
+
+### Exercise-2 Total price: Create a function called TotalPrice that takes 2 parameters, price and VAT, and returns the price including VAT. if the price exceeds 3000 a 10 percent discount is made on the total price.
+
+```python
+Funcion costo <- PrecioTotal (precio, iva)
+		Definir costo Como Real;
+		SI precio > 3000 Entonces
+			costo = ( precio + (precio/100*iva) ) / 100*90
+		SiNo
+			costo = ( precio + (precio/100*iva) )
+		FinSi
+	Fin Funcion
+	
+	Algoritmo EjemploPrecioTotal
+		Imprimir PrecioTotal(4000,15)
+FinAlgoritmo
+```
