@@ -186,3 +186,33 @@ Funcion costo <- PrecioTotal (precio, iva)
 		Imprimir PrecioTotal(4000,15)
 FinAlgoritmo
 ```
+
+
+
+### Exercise-3 Reverse direction and size: Create a function called ReverseDirectionAndSize that takes some text as a parameter and reverses it, eg: "Hello" -> "olleH" and also reverses the letters if they are uppercase to lowercase and if they are lowercase to uppercase, it should do something. like this:
+
+"HelLO" --> "olLEh"
+
+"Leonardo" --> "ODRANOEl"
+
+"Text" --> "TXEt"
+
+```python
+Funcion resultado <- ReverseDirectionAndSize (string)
+	Definir resultado Como Caracter;
+	resultado = "";
+	Para contar = Longitud(string) Hasta 0 Con Paso -1 Hacer
+		carta = Subcadena(string,contar,contar);
+		SI carta = Mayusculas(carta) Entonces
+			carta = Minusculas(carta)
+		SiNo
+			carta = Mayusculas(carta)
+		FinSi
+		resultado = Concatenar(resultado, carta)
+	FinPara
+Fin Funcion
+
+Algoritmo ejemplo_ReverseDirectionAndSize
+	Imprimir ReverseDirectionAndSize("Hola")
+FinAlgoritmo
+```
