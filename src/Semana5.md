@@ -26,7 +26,7 @@ Funcion result <- timeConverter (numero)
 Fin Funcion
 
 Algoritmo eTimeConverter
-	Imprimir timeConverter(1500000)
+	Imprimir timeConverter(4000)
 FinAlgoritmo
 ```
 
@@ -130,10 +130,10 @@ Funcion result <- midPoint (num1,num2)
 Fin Funcion
 
 Algoritmo eMidpPoint
-	Imprimir midPoint(50,90)
-	Imprimir midPoint(50,-90)
-	Imprimir midPoint(60,60)
-	Imprimir midPoint(-60,60)
+	Imprimir midPoint(40,80)
+	Imprimir midPoint(40,-80)
+	Imprimir midPoint(50,50)
+	Imprimir midPoint(-50,50)
 FinAlgoritmo
 ```
 
