@@ -25,7 +25,7 @@ Funcion result <- timeConverter (numero)
 	result = Concatenar(result, ConvertirATexto(seconds));
 Fin Funcion
 
-Algoritmo ejemploTimeConverter
+Algoritmo eTimeConverter
 	Imprimir timeConverter(1500000)
 FinAlgoritmo
 ```
