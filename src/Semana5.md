@@ -253,3 +253,16 @@ if (10 < 5) {
 }
 ```
 
+
+
+### Exercise-2 While: Create a while loop statement with the JavaScript syntax
+
+```JavaScript
+let i = 1;
+
+while (i <= 10) {
+	console.log ("El valor del bucle es: " + i) ;
+	i++;
+}
+```
+
