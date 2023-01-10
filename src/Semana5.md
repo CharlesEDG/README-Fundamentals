@@ -237,3 +237,19 @@ Algoritmo eWeatherAverage
 FinAlgoritmo
 ```
 
+
+
+## Jueves:
+
+### Exercise-1 If: Create an if statement with the JavaScript syntax
+
+```JavaScript
+if (10 < 5) {
+    console.log ("Verdadero")
+
+ } else {
+    console.log("Falso")
+
+}
+```
+
