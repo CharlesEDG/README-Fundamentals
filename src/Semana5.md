@@ -9,13 +9,13 @@
 150000 --> "days: 1, hours: 17, minutes: 40, and seconds: 0"
 
 ```python
-Funcion result <- timeConverter (number)
+Funcion result <- timeConverter (numero)
 	Definir result Como Caracter;
 	Definir dias, horas, minutos, seconds Como Entero;
 	seconds = number % 60;
-	minutos = Trunc(number/60) % 60;
-	horas = Trunc(number/3600) % 24;
-	dias = Trunc(number/86400);
+	minutos = Trunc(numero/60) % 60;
+	horas = Trunc(numero/3600) % 24;
+	dias = Trunc(numero/86400);
 	result = Concatenar('dias: ', ConvertirATexto(dias));
 	result = Concatenar(result, ', horas: ');
 	result = Concatenar(result, ConvertirATexto(horas));
