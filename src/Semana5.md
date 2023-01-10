@@ -60,3 +60,37 @@ Algoritmo eCompareDistances
 	Imprimir compareDistances()
 FinAlgoritmo
 ```
+
+
+
+## Martes:
+
+### Exercise-2 Sum of pairs: write a function called sumOfPairs that asks for a number from 1 to 100 indefinitely, if a negative number or greater than 100 is entered, it stops asking for more numbers and returns the sum of all the even numbers entered.
+
+4, 12 , 100, 11, -60 --> 116
+
+40, 121 --> 40
+
+```python
+Funcion result <- sumOfPairs ()
+	Definir result Como Real;
+	Definir suma Como Real;
+	suma = 0;
+	Repetir
+		Escribir "Ingrese un numero entre 1 y 100"
+		leer num
+		SI  num < 1  | num > 100 Entonces
+			Imprimir 'Numero inválido'
+		SiNo
+			SI num % 2 = 0
+				suma = suma + num;
+			FinSi
+		FinSi
+	Mientras Que num >= 1  & num  <= 100
+	result = suma;
+Fin Funcion
+
+Algoritmo eSumOfPairs
+	Imprimir sumOfPairs()
+FinAlgoritmo
+```
