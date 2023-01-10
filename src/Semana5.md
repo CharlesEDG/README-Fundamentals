@@ -29,3 +29,34 @@ Algoritmo eTimeConverter
 	Imprimir timeConverter(1500000)
 FinAlgoritmo
 ```
+
+
+
+### Excerise-2 Compare distances: Create a function called compareDistances that asks for 5 numbers, these can be positive or negative, add the positives with positives and negatives with negatives, the function should return true if there is more distance to 0 with positives or false if the distance is greater with negatives .
+
+4, 12 , 100, 8, -60 --> true
+
+40, 120 , 10, -80, -91 --> false
+
+```python
+Funcion result <- compareDistances ()
+	Definir result Como Logico;
+	Definir numeroNegativo, numeroPositivo Como Real;
+	numeroNegativo = 0;
+	numeroPositivo = 0;
+	Para contar=1 Hasta 5 Con Paso 1 Hacer
+		Escribir "Ingrese un número"
+		leer num
+		SI num > 0 Entonces
+			numeroPositivo = numeroPositivo + num;
+		SiNo
+			numeroNegativo = numeroNegativo + num;
+		FinSi
+	FinPara
+	result = numeroPositivo > Abs(numeroNegativo)
+Fin Funcion
+
+Algoritmo eCompareDistances
+	Imprimir compareDistances()
+FinAlgoritmo
+```
