@@ -266,3 +266,12 @@ while (i <= 10) {
 }
 ```
 
+
+
+### Exercise-3 For: Create a for loop with the JavaScript syntax
+
+```JavaScript
+for(let i = 0; i <= 10; i++){
+    console.log(i)
+}
+```
